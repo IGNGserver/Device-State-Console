@@ -1,0 +1,20 @@
+{
+  "name": "@dsc/desktop",
+  "version": "0.2.77",
+  "private": true,
+  "type": "module",
+  "description": "Unified Windows and Linux Electron desktop client for Device State Console.",
+  "author": {
+    "name": "Device State Console contributors",
+    "email": "github-actions@github.com"
+  },
+  "homepage": "https://github.com/IGNGserver/Device-State-Console",
+  "main": "dist/main/main.js",
+  "dependencies": {
+    "@dsc/shared": "workspace:*",
+    "clsx": "^2.1.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "recharts": "^3.2.1"
+  }
+}
